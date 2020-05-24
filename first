@@ -1,0 +1,320 @@
+### Features
+
+- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
+- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
+- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
+- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
+- Support identification, interpretation, fliter of the HTML tags;
+- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
+- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+[![Cris](data:image/jpeg;base64,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 "Cris")](http://www.linkedin.com/cristianevalente "Cris")````sql
+create table nascimento (nome text, idade text);
+insert into table (nome, idade) values ("Cristiane",39);
+````
+# Editor.md
+
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
+#H1 header
+##H2 header
+###H3 header
+####H4 header
+#####H5 header
+######H6 header
+#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
+#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
+##Headers (Underline)
+
+H1 Header (Underline)
+=============
+
+H2 Header (Underline)
+-------------
+
+###Characters
+                
+----
+
+~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
+*Italic*      _Italic_
+**Emphasis**  __Emphasis__
+***Emphasis Italic*** ___Emphasis Italic___
+
+Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
+
+**Abbreviation(link HTML abbr tag)**
+
+The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
+
+###Blockquotes
+
+> Blockquotes
+
+Paragraphs and Line Breaks
+                    
+> "Blockquotes Blockquotes", [Link](http://localhost/)。
+
+###Links
+
+[Links](http://localhost/)
+
+[Links with title](http://localhost/ "link title")
+
+`<link>` : <https://github.com>
+
+[Reference link][id/name] 
+
+[id/name]: http://link-url/
+
+GFM a-tail link @pandao
+
+###Code Blocks (multi-language) & highlighting
+
+####Inline code
+
+`$ npm install marked`
+
+####Code Blocks (Indented style)
+
+Indented 4 spaces, like `<pre>` (Preformatted Text).
+
+    <?php
+        echo "Hello world!";
+    ?>
+    
+Code Blocks (Preformatted text):
+
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
+
+####Javascript　
+
+```javascript
+function test(){
+	console.log("Hello world!");
+}
+ 
+(function(){
+    var box = function(){
+        return box.fn.init();
+    };
+
+    box.prototype = box.fn = {
+        init : function(){
+            console.log('box.init()');
+
+			return this;
+        },
+
+		add : function(str){
+			alert("add", str);
+
+			return this;
+		},
+
+		remove : function(str){
+			alert("remove", str);
+
+			return this;
+		}
+    };
+    
+    box.fn.init.prototype = box.fn;
+    
+    window.box =box;
+})();
+
+var testBox = box();
+testBox.add("jQuery").remove("jQuery");
+```
+
+####HTML code
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Hello world!</title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+    </body>
+</html>
+```
+
+###Images
+
+Image:
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+> Follow your heart.
+
+![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+
+> 图为：厦门白城沙滩 Xiamen
+
+图片加链接 (Image + Link)：
+
+[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
+
+> 图为：李健首张专辑《似水流年》封面
+                
+----
+
+###Lists
+
+####Unordered list (-)
+
+- Item A
+- Item B
+- Item C
+     
+####Unordered list (*)
+
+* Item A
+* Item B
+* Item C
+
+####Unordered list (plus sign and nested)
+                
++ Item A
++ Item B
+    + Item B 1
+    + Item B 2
+    + Item B 3
++ Item C
+    * Item C 1
+    * Item C 2
+    * Item C 3
+
+####Ordered list
+                
+1. Item A
+2. Item B
+3. Item C
+                
+----
+                    
+###Tables
+                    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
+
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+                
+----
+
+####HTML entities
+
+&copy; &  &uml; &trade; &iexcl; &pound;
+&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
+
+X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
+
+18&ordm;C  &quot;  &apos;
+
+##Escaping for Special Characters
+
+\*literal asterisks\*
+
+##Markdown extras
+
+###GFM task list
+
+- [x] GFM task list 1
+- [x] GFM task list 2
+- [ ] GFM task list 3
+    - [ ] GFM task list 3-1
+    - [ ] GFM task list 3-2
+    - [ ] GFM task list 3-3
+- [ ] GFM task list 4
+    - [ ] GFM task list 4-1
+    - [ ] GFM task list 4-2
+
+###Emoji mixed :smiley:
+
+> Blockquotes :star:
+
+####GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
+
+- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
+- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
+- [x] [ ] :smiley: this is a complete item :smiley:;
+- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
+- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
+    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
+    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
+            
+###TeX(LaTeX)
+   
+$$E=mc^2$$
+
+Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
+
+$$\(\sqrt{3x-1}+(1+x)^2\)$$
+                    
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
+                
+###FlowChart
+
+```flow
+st=>start: Login
+op=>operation: Login operation
+cond=>condition: Successful Yes or No?
+e=>end: To admin
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+###Sequence Diagram
+                    
+```seq
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
+```
+
+###End
